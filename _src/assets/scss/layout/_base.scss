@@ -24,7 +24,7 @@
 
 .btn{
     text-transform: uppercase;
-    background-color: $color-link;
+    background-color: $btn-background-color;
     font-family: $font-family;
     color: $color-secondary;
     font-weight: 700;
@@ -35,7 +35,7 @@
     border-radius: 20px;
 
     &:hover{
-        background-color: lighten($color-link, 10%);
+        background-color: lighten($btn-background-color, 10%);
         transform: scale(1.05)
     }
 }
