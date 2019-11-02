@@ -13,15 +13,21 @@
   <header class="header">
     <div class="spotify-logo"><a href="#"><img src="./assets/images/spotify-logo.png" alt="logo-spotify"></a>
     </div>
-    <nav class="menu-header">
-      <ul>
-        <li><a href="#">Premium</a></li>
-        <li><a href="#">Ayuda</a></li>
-        <li><a href="#">Descargar</a></li>
-        <span>|</span>
-        <li><a href="#">Registrarse</a></li>
-        <li><a href="#">Iniciar sesión</a></li>
-      </ul>
+    <nav class="navigation">
+      <div id="menuToggle">
+        <input type="checkbox" />
+        <span></span>
+        <span></span>
+        <span></span>
+        <ul id="menu">
+          <li><a href="#">Premium</a></li>
+          <li><a href="#">Ayuda</a></li>
+          <li><a href="#">Descargar</a></li>
+          <span>|</span>
+          <li><a href="#">Registrarse</a></li>
+          <li><a href="#">Iniciar sesión</a></li>
+        </ul>
+      </div>
     </nav>
   </header>
   <main>
@@ -36,23 +42,31 @@
       <div class="content__box">
         <article>
           <img src="./assets/images/div1.png" alt="Descarga música">
-          <h4>Descarga música.</h4>
-          <p>Llévala siempre contigo.</p>
+          <div class="article__content">
+            <h4>Descarga música.</h4>
+            <p>Llévala siempre contigo.</p>
+          </div>
         </article>
         <article>
           <img src="./assets/images/div2.png" alt="Sin anuncios">
-          <h4>Sin anuncios.</h4>
-          <p>Disfruta de música sin interrupciones.</p>
+          <div class="article__content">
+            <h4>Sin anuncios.</h4>
+            <p>Disfruta de música sin interrupciones.</p>
+          </div>
         </article>
         <article>
           <img src="./assets/images/div3.png" alt="Escucha lo que quieras">
-          <h4>Escucha lo que quieras</h4>
-          <p>Incluso en el móvil.</p>
+          <div class="article__content">
+            <h4>Escucha lo que quieras</h4>
+            <p>Incluso en el móvil.</p>
+          </div>
         </article>
         <article>
           <img src="./assets/images/div4.png" alt="Salta lo que quieras">
-          <h4>Salta todas las canciones que quieras.</h4>
-          <p>Simplemente dale a siguiente.</p>
+          <div class="article__content">
+            <h4>Salta todas las canciones que quieras.</h4>
+            <p>Simplemente dale a siguiente.</p>
+          </div>
         </article>
       </div>
     </div>

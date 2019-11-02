@@ -2,7 +2,7 @@
     font-family: $font-family;
 }
 .hero{
-    height: 700px;
+    height: 50vh;
     background-color: $color-primary;
     display: flex;
     flex-direction: column;
@@ -51,9 +51,18 @@
     align-items: center;
 
     article{
+        width: 95%;
         display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        flex-direction: row;
+
+        img{
+            width: 142px;
+            height: 142px;
+        }
     }
+}
+.article__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }

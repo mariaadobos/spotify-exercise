@@ -1,9 +1,12 @@
 .footer{
-    height: 20%;
-    background-color: $color-tertiary;
+    height: 100px;
+    background-color: #000000;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(3, 1fr);
+    font-size: 10px;
+    color: rgb(145, 148, 150);
+    padding: 20px 10px;
 }
 .language{
     grid-column: 5/7;
