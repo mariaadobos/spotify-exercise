@@ -1,0 +1,63 @@
+body {
+    font-family: $font-family;
+}
+
+.txt-xs{
+    font-size: 10px;
+    @media all and (min-width: 768px){
+        font-size: 12px;
+    }
+}
+.txt-sm{
+    font-size: 15px;
+    @media all and (min-width: 768px){
+        font-size: 20px;
+    }
+}
+.txt-md{
+    font-size: 18px;
+    font-weight: $font-weight-bold;
+    @media all and (min-width: 768px){
+        font-size: 22px;
+    }
+}
+.txt-lg{
+    font-size: 24px;
+    font-weight: $font-weight-bolder;
+    @media all and (min-width: 768px){
+        font-size: 36px;
+    }
+}
+.txt-xl{
+    font-size: 30px;
+    font-weight: $font-weight-bolder;
+    @media all and (min-width: 768px){
+        font-size: 70px;
+    }       
+}
+.txt-menu-md{
+    font-size: 22px;
+    font-weight: $font-weight-bold;
+    @media all and (min-width: 769px){
+        font-size: 16px;
+    }
+}
+.txt-menu-lg{
+    font-size: 30px;
+    font-weight: $font-weight-bold;
+    @media all and (min-width: 769px){
+        font-size: 16px;
+    }
+}
+.txt-light{
+    color: $font-color-light;
+}
+.txt-dark{
+    color: $font-color-dark;
+}
+.bold{
+    font-weight: $font-weight-bold;
+}
+.btn-txt{
+    font-size: 15px;
+}
